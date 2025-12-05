@@ -19,7 +19,7 @@ An industry-grade, real-time voice conversational agent that listens, thinks, an
 
 ## 🏗️ Architecture
 
-```mermaid
+
 graph LR
     User[User Phone] <--> Twilio
     Twilio <-->|WebSocket (Audio)| FastAPI[FastAPI Server]
